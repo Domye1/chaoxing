@@ -2,7 +2,7 @@ name: 刷课
 
 on:
   push:
-    # branches: [ main ]
+    branches: [ main ]
   schedule:
     - cron: "0 9 * * *"  # 8:00 AM UTC every day
     - cron: "0 15 * * *" # 3:00 PM UTC every day
