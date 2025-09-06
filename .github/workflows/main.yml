@@ -1,9 +1,9 @@
 name: 刷课
 on:
   push:
-    branches: [ main ]
+    # branches: [ main ]
   schedule:
-    - cron: "0 9 * * *"  # 8:00 AM UTC every day
+    - cron: "4 1 * * *"  # 每天 UTC 1:04（北京时间 9:04）执行
     - cron: "0 15 * * *" # 3:00 PM UTC every day
     
 jobs: 
